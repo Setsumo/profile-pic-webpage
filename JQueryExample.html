@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn jQuery Interactively</title>
+  <link rel="stylesheet" href="JQueryExample.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="JQueryExample.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Learn jQuery</h1>
+    <p>Explore interactive examples for each jQuery concept below.</p>
+  </header>
+
+  <main>
+    <!-- Example 1: jQuery Selectors -->
+    <section class="example-section" id="selectors">
+      <h2 class = "title">1. jQuery Selectors</h2>
+      <p>Use jQuery selectors to choose elements by class.  Use the "this" keyword to represent the item that occured.</p>
+     
+      <ul class="item-list">
+        <li class = "highlight">Item 1</li>
+        <li class="highlight">Item 2</li>
+        <li class = "highlight">Item 3</li>
+      </ul>
+    </section>
+
+    <!-- Example 2: Modifying Content and Attributes -->
+    <section class="example-section" id="modify-content">
+      <h2 class = "title">2. Modify HTML Content & Attributes</h2>
+      <p>Modify content and attributes using methods like .html(), .text(), .attr(), and .val().</p>
+      <button id="change-text-btn">Change Text</button>
+      <p id="text-target">This is the original text.</p>
+    </section>
+
+    <!-- Example 3: Applying CSS Styles -->
+    <section class="example-section" id="apply-styles">
+      <h2 class = "title">3. Apply and Remove CSS Styles</h2>
+      <p>Use methods like .css(), .addClass(), .removeClass(), and .toggleClass() to style elements.</p>
+      <button id="style-toggle-btn">Toggle Style</button>
+      <div class="box">Style me with jQuery</div>
+    </section>
+
+    <!-- Example 4: Event Listeners -->
+    <section class="example-section" id="event-listeners">
+      <h2 class = "title">4. Event Listeners</h2>
+      <p>Set up event listeners with methods like .click(), .hover(), .keydown(), and .change().</p>
+      <input type="text" id="name-input" placeholder="Type your name" />
+      <p id="name-output"></p>
+    </section>
+
+    <!-- Example 5: jQuery Effects -->
+    <section class="example-section" id="effects">
+      <h2 class = "title">5. jQuery Effects</h2>
+      <p>Use methods like .show(), .hide(), .fadeIn(), .fadeOut(), .slideUp(), and .slideDown() for effects.</p>
+      <button id="toggle-para-btn">Toggle Paragraph</button>
+      <p class="effect-para">This paragraph can be shown or hidden.</p>
+    </section>
+
+    <!-- Section 6: Custom Animations -->
+    <section class="example-section clearfix" id="animations">
+      <h2 class = "title">6. Custom Animations</h2>
+      <p>Create custom animations with .animate() and control speed and easing.</p>
+      <button id="animate-box-btn">Animate Box</button>
+      <div class="anim-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 jQuery Tutorial</p>
+  </footer>
+
+
+</body>
+</html>

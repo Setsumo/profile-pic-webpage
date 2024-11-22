@@ -1,0 +1,72 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #95B2B8;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .example-section {
+    margin-bottom: 30px;
+    border: 1px solid #95B2B8;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .example-section h2 {
+    color: #333;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #95B2B8;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    background-color: #a5c2c8;
+  }
+  
+
+  
+  .box {
+    width: 200px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid grey;
+    
+  }
+  .highlight-box{
+    background-color: green;
+    color: yellow;
+  }
+
+  .effect-para {
+    display: none;
+  }
+  
+  .anim-box {
+    width: 50px;
+    height: 50px;
+    background-color: #2196F3;
+    padding: 5px;
+    position: absolute;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
